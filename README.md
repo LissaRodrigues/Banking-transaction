@@ -20,17 +20,6 @@ Every load or authorization PUT should return the updated balance following the 
 
 You may use any technologies to support the service. We do not expect you to use a persistent store (you can you in-memory object), but you can if you want. We should be able to bootstrap your project locally to test.
 
-## Expectations
-We are looking for attention in the following areas:
-1) Do you accept all requests supported by the schema, in the format described?
-
-2) Do your responses conform to the prescribed schema?
-
-3) Does the authorizations endpoint work as documented in the schema?
-
-4) Do you have unit and integrations test on the functionality?
-
-# Candidate README
 ## Bootstrap instructions
 To run this transaction service locally, follow these steps:
 
@@ -102,12 +91,3 @@ Monitoring and logging: Use monitoring and logging tools like Prometheus, Grafan
  \_/ \_/ \_/ \_/ \_/ \_/ \_/ \_/ 
            
 ```
-## License
-
-At CodeScreen, we strongly value the integrity and privacy of our assessments. As a result, this repository is under exclusive copyright, which means you **do not** have permission to share your solution to this test publicly (i.e., inside a public GitHub/GitLab repo, on Reddit, etc.). <br>
-
-## Submitting your solution
-
-Please push your changes to the `main branch` of this repository. You can push one or more commits. <br>
-
-Once you are finished with the task, please click the `Submit Solution` link on <a href="https://app.codescreen.com/candidate/80d19d4a-c14f-4031-83b6-1d799fd88022" target="_blank">this screen</a>.
